@@ -1,0 +1,116 @@
+@import url("./web-site-logo_animation.css");
+@import url("./web-site-logo_circle.css");
+@import url("./web-site-logo_triangle.css");
+/* @import url("./web-site-logo_rect.css"); */
+
+    .logo{
+        transform: translateY(-3.5rem);
+    }
+    .logo__first-box-side,
+    .logo__second-box-side,
+    .logo__third-box-side,
+    .logo__fourth-box-side{
+        position: absolute;
+        transform-origin: center;
+    }
+    .logo__first-box-side,
+    .logo__second-box-side{
+        width: 2.94rem; height: 3rem;
+        transform: translate(1.54rem, 6.84rem) rotate(0deg);
+    }
+    .logo__third-box-side, 
+    .logo__fourth-box-side{
+        position: absolute;
+        
+        width: 3.1rem; height: 1rem;
+        transform: skew(70deg);
+    }
+    .logo__first-box-side{
+        z-index: 2;
+        
+        background-color: #08418a;
+        animation: 10s ease-in-out first-side forwards;
+    }
+    .logo__second-box-side{
+        z-index: 3;
+
+        background-color: #2960a6;
+        animation: 10s ease-in-out second-side forwards;
+    }
+    .logo__third-box-side{
+        z-index: 4;
+
+        background-color: #7faeeb;
+        animation: 10s ease-in-out third-side forwards;
+    }
+    .logo__fourth-box-side{
+        z-index: 2;
+        
+        background-color: #7faeeb;
+        animation: 10s ease-in-out fourt-side forwards;
+    }
+
+    .logo__shadow{
+        position: absolute;
+        transform: translate(-3.12rem, 3.35rem);
+
+        width: 4rem; height: 1px;
+        background-color: rgba(0,0,0,0);
+    }
+
+
+    /* /////////////////////////////////////////////////// */
+
+
+    /* .logo{
+        transform: translateY(2rem);
+    }
+    .logo__first-box-side,
+    .logo__second-box-side,
+    .logo__third-box-side,
+    .logo__fourth-box-side{
+        position: absolute;
+    }
+    .logo__third-box-side, .logo__fourth-box-side{
+        position: absolute;
+        
+        width: 3.1rem; height: 1rem;
+    }
+    .logo__first-box-side{
+        z-index: 2;
+
+        transform: translateX(1.5rem) rotate(20deg);
+
+        width: 3rem; height: 3rem;
+        background-color: #08418a;
+    }
+    .logo__second-box-side{
+        z-index: 3;
+
+        transform: translateX(-1.5rem) rotate(20deg);
+
+        width: 3rem; height: 3rem;
+        background-color: #2960a6;
+    }
+    .logo__third-box-side{
+        z-index: 4;
+
+        transform: translate(.46rem, -.43rem) skew(70deg);
+        
+        background-color: #7faeeb;
+    }
+    .logo__fourth-box-side{
+        z-index: 2;
+
+        transform: translate(-.55rem, 2.41rem) skew(70deg);
+
+        background-color: #7faeeb;
+    }
+
+    .logo__shadow{
+        position: absolute;
+        transform: translate(-3.12rem, 3.35rem);
+
+        width: 4rem; height: 1px;
+        background-color: rgba(0,0,0,.3);
+    } */

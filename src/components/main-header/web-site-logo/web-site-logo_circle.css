@@ -1,0 +1,12 @@
+.logo__circle{
+    z-index: 2;
+    position: absolute;
+    transform: translate(.2rem, 5.67rem); 
+
+    opacity: 0;
+    width: 1.5rem; height: 1.5rem;
+    border-radius: 50%;
+    background-color: #ec3a52;
+
+    animation: 10s logo-circle ease-in-out forwards;
+}

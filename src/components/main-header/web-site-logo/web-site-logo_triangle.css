@@ -1,0 +1,14 @@
+.logo__triangle{
+    z-index: 2;
+
+    position: absolute;
+    transform-origin: center center;
+    transform: translate(.2rem, 5.9rem) rotate(60deg);
+
+    opacity: 0;
+    border-top: 1.3rem solid #4ea346;
+    border-left:.8rem solid transparent;
+    border-right: .8rem solid transparent;
+
+    animation: 10s ease-in-out logo-triangle forwards;
+}

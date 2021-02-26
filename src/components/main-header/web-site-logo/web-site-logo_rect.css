@@ -1,0 +1,8 @@
+.logo__rect{
+    z-index: 2;
+    position: absolute;
+    transform: translate(1.6rem, 1.4rem) rotate(20deg);
+
+    width: 1.5rem; height: 1.5rem;
+    background-color: #d4c645;
+}

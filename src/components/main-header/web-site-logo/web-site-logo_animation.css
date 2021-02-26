@@ -1,0 +1,90 @@
+@keyframes first-side{
+    50%{
+        transform: translate(1.54rem, 4.84rem) rotate(0deg);
+    }
+    60%{
+        transform: translate(1.54rem, 4.84rem) rotate(20deg);
+    }
+    100%{  transform: translate(-37.8rem, 4.84rem) rotate(20deg);}
+}
+@keyframes second-side{
+    50%{
+        transform: translate(-1.54rem, 4.84rem) rotate(0deg);
+    }
+    60%{
+        transform: translate(-1.54rem, 4.84rem) rotate(20deg);
+    }
+    100%{
+        transform: translate(-40.9rem, 4.84rem) rotate(20deg);
+    }
+}
+@keyframes third-side{
+    40%{
+        transform: translate(.46rem, 4.43rem) skew(70deg);
+    }
+    60%{ 
+        transform: translate(.46rem, 4.43rem) skew(70deg);
+    }
+    100%{
+        transform: translate(-38.9rem, 4.43rem) skew(70deg);
+    }
+}
+@keyframes fourt-side{
+    60%{
+        transform: translate(-.6rem, 7.25rem) skew(70deg);        
+    }
+    100%{
+        transform: translate(-40rem, 7.25rem) skew(70deg);
+    }
+}
+@keyframes logo-circle{
+    25%{
+        transform: translate(.2rem, 5.67rem);        
+    }
+    50%{
+        opacity: 0;
+    }
+    59%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;  
+        transform: translate(.2rem, 5.67rem);
+    }
+    70%{
+        opacity: 1;  
+        transform: translate(.2rem, 6.8rem);   
+    }
+    100%{
+        opacity: 1;  
+        transform: translate(-36rem,6.8rem); 
+    }
+}
+@keyframes logo-triangle{
+    
+    50%{
+        opacity: 0;
+    }
+    59%{
+        opacity: 1;
+        transform: translate(.2rem, 5.9rem) rotate(60deg);
+    }
+    65%{
+        opacity: 1;
+        transform: translate(-2rem, 6rem) rotate(180deg);
+    }
+
+    80%{
+        opacity: 1;
+        transform: translate(-10rem, 7.5rem) rotate(301deg);
+    }
+    90%{
+        opacity: 1;
+        transform: translate(-10rem, 7.5rem) rotate(301deg);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(-35rem, 7.5rem) rotate(301deg);
+    }
+}
