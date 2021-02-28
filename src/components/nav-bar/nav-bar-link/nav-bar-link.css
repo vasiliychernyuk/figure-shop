@@ -1,0 +1,14 @@
+.nav-bar-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5rem 1.2rem;
+
+    color: rgba(0,0,0,.7);
+    font-size: .8rem;
+    font-weight: 400;
+
+    transition: color ease-in-out .1s;
+}
+.nav-bar-link:hover{
+    color: #7faeeb;
+}

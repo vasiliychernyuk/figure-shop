@@ -1,8 +1,11 @@
 .logo__rect{
     z-index: 2;
     position: absolute;
-    transform: translate(1.6rem, 1.4rem) rotate(20deg);
+    transform: translate( 2rem, 6.2rem ) rotate(20deg);
 
+    opacity: 0;
     width: 1.5rem; height: 1.5rem;
     background-color: #d4c645;
+
+    animation: 3s logo-rect ease-in-out forwards;
 }

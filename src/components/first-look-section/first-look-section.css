@@ -1,0 +1,6 @@
+.first-look-section{
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-areas: 'main-sidebar first-look-content';
+    padding: 2rem 0;
+}

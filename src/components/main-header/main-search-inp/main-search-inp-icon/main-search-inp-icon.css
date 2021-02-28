@@ -1,0 +1,9 @@
+.main-search-inp__icon-svg{
+    width: 1.5rem; height: 1.5rem;
+    fill: rgba(0,0,0,.2);
+    transition: fill .1s ease-in-out;
+    cursor: pointer
+}
+.main-search-inp__icon-svg:hover{
+    fill: rgba(0,0,0,1);
+}

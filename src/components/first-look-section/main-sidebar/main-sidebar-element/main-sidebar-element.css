@@ -1,0 +1,12 @@
+.main-sidebar-element{
+    margin: 1rem 0;
+}
+.main-sidebar-element > a{
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: #333;
+    transition: color .1s ease-in-out;
+}
+.main-sidebar-element > a:hover{
+    color: #7faeeb;
+}

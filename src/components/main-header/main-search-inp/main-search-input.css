@@ -1,0 +1,34 @@
+.main-search-inp-section{
+    grid-area: "main-header-inp";
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-search-inp-section__input{
+    display: flex;
+}
+.main-search-inp-section__input > input{
+    width: 25rem; height: 2rem;
+    border-radius: 3rem;
+    padding: .5rem 1rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .2) inset;
+
+    font-size: 1.2rem;
+    color: #333;
+}
+.main-search-inp-section__input > input:focus{
+    box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+}
+.main-search-inp-section__input > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: .5rem;
+
+    width: 2rem; height: 2rem;
+    background-color: transparent;
+}
