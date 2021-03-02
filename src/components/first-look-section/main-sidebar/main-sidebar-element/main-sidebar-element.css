@@ -1,11 +1,15 @@
 .main-sidebar-element{
-    margin: 1rem 0;
+    position: relative;
+    padding-left: .5rem;
 }
 .main-sidebar-element > a{
-    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    font-size: .7rem;
     text-transform: uppercase;
     color: #333;
     transition: color .1s ease-in-out;
+    padding: .8rem 0;
 }
 .main-sidebar-element > a:hover{
     color: #7faeeb;

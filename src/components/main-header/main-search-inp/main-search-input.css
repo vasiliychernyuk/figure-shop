@@ -14,13 +14,13 @@
     width: 25rem; height: 2rem;
     border-radius: 3rem;
     padding: .5rem 1rem;
-    box-shadow: 0 0 7px rgba(0, 0, 0, .2) inset;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3) inset;
 
     font-size: 1.2rem;
     color: #333;
 }
 .main-search-inp-section__input > input:focus{
-    box-shadow: 0 0 7px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
 }
 .main-search-inp-section__input > button{
     display: flex;
