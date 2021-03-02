@@ -10,9 +10,9 @@
     width: 80%;
     font-size: 1rem;
     background-color: rgba(0,0,0,.1);
-    padding: .5rem 1rem;
-    border-radius: 15px;
-    box-shadow: 0 0 7px rgba(121, 23, 23, 0.25);
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
 }
 .main-sidebar-section__categories > h4{
     display: flex;
